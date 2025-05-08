@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="description" content="A portfolio showcasing the frontend development and UI/UX skills of Yash Jaiswal, including projects and professional experience.">
     <title>Yash</title>
-    
+    <noscript><link rel="stylesheet" href="css/vendor.css"></noscript>
+    <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preload" href="css/vendor.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="css/vendor.css"></noscript>
-    <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
+    
     <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
     <link rel="manifest" href="site.webmanifest">
 
@@ -55,6 +55,7 @@
                         <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
                         <li><a href="#about" class="smoothscroll">About</a></li>
                         <li><a href="#skill" class="smoothscroll">Skills</a></li>
+                        <li><a href="#project" class="smoothscroll">Projects</a></li>
                         <li><a href="#quest" class="smoothscroll">Quests</a></li>
                         <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
                     </ul>
@@ -319,6 +320,22 @@
                 <li class="folio-list__item column" data-animate-el>
                     <a class="folio-list__item-skill">
                         <div class="folio-list__item-pic_skill">
+                            <img src="images/portfolio/ts.png" alt="javascript logo on yash jaiswal portfolio">
+                        </div>
+                        
+                        <div class="folio-list__item-text">
+                            <div class="folio-list__item-cat">
+                                Web Development
+                            </div>
+                            <div class="folio-list__item-title">
+                                Typescript
+                            </div>
+                        </div>
+                    </a>
+                </li> 
+                <li class="folio-list__item column" data-animate-el>
+                    <a class="folio-list__item-skill">
+                        <div class="folio-list__item-pic_skill">
                             <img src="images/portfolio/php.png" alt="php logo on yash jaiswal portfolio">
                         </div>
                         
@@ -437,6 +454,182 @@
         </div> <!-- end column -->
     </div> <!-- end works-portfolio -->
 </section>
+ <!-- =========================   Projets  ================================ -->
+
+ <section id="project" class="s-works target-section">
+
+
+    <div class="row works-portfolio">
+
+        <div class="column lg-12" data-animate-block>
+
+            <h2 class="text-pretitle" data-animate-el>
+                Projects
+            </h2>
+            <p class="h1" data-animate-el>
+                Here are some of my Projects
+            </p>
+
+            <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                <li class="folio-list__item column" data-animate-el>
+                    <a class="folio-list__item-link" href="#modal-011">
+                        <div class="folio-list__item-pic">
+                            <img src="images/portfolio/weather-app.png"  alt="the buddha photographed by yash jaiswal">
+                        </div>
+                        
+                        <div class="folio-list__item-text">
+                            <div class="folio-list__item-cat">
+                                React App
+                            </div>
+                            <div class="folio-list__item-title">
+                                Real-Time Weather App
+                            </div>
+                        </div>
+                    </a>
+                    
+                </li> <!--end folio-list__item -->
+
+                <li class="folio-list__item column" data-animate-el>
+                    <a class="folio-list__item-link" href="#modal-022">
+                        <div class="folio-list__item-pic">
+                            <img src="images/portfolio/clapperboard.png" alt="steve jobs sketched by yash jaiswal">
+                        </div>
+                        
+                        <div class="folio-list__item-text">
+                            <div class="folio-list__item-cat">
+                                React App
+                            </div>
+                            <div class="folio-list__item-title">
+                                Movie Explorer
+                            </div>
+                        </div>
+                    </a>
+                    
+                </li> <!--end folio-list__item -->
+
+                <li class="folio-list__item column" data-animate-el>
+                    <a class="folio-list__item-link" href="#modal-033">
+                        <div class="folio-list__item-pic">
+                            <img src="images/portfolio/atm-card.png" alt="a spider photographed by yash jaiswal">
+                        </div>
+                        
+                        <div class="folio-list__item-text">
+                            <div class="folio-list__item-cat">
+                                React App
+                            </div>
+                            <div class="folio-list__item-title">
+                               Banking UI App
+                            </div>
+                        </div>
+                    </a>
+                    
+                </li> <!--end folio-list__item -->
+
+
+            </ul> <!-- end folio-list -->
+
+        </div> <!-- end column -->
+
+
+        <!-- Modal Templates Popup
+        -------------------------------------------- -->
+        <div id="modal-011" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/weather-app.png" alt="the buddha photographed by yash jaiswal">
+    
+                <div class="modal-popup__desc">
+                    <h5> Real-Time Weather App</h5>
+                    <p>A visually immersive and interactive weather application that provides real-time weather forecasts, hourly trends, AQI data, and dynamic UI changes based on weather conditions. It combines geolocation, animated visuals, and ambient sounds for an engaging user experience.</p>
+                    <a href="https://github.com/yashjaiswal97/weather-dashboard">Github Link</a>
+                    
+                </div>
+    
+                
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-022" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/clapperboard.png" alt="steve jobs sketched by yash jaiswal">
+    
+                <div class="modal-popup__desc">
+                    <h5> Movie Explorer App</h5>
+                    <p>A sleek and interactive movie exploration platform that allows users to browse trending films, view detailed movie information, watch trailers, and search by genre or title. It features real-time API integration, smooth animations, and responsive layouts, delivering a cinematic discovery experience enriched with posters, ratings, and cast details.</p>
+                    <a href="https://github.com/yashjaiswal97/movie-explorer">Github Link</a>
+                    
+                </div>
+    
+                
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-033" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/atm-card.png" alt="a spider photographed by yash jaiswal">
+    
+                <div class="modal-popup__desc">
+                    <h5> Banking UI App</h5>
+                    <p>A visually immersive and interactive weather application that provides real-time weather forecasts, hourly trends, AQI data, and dynamic UI changes based on weather conditions. It combines geolocation, animated visuals, and ambient sounds for an engaging user experience.</p>
+                    <a href="https://github.com/yashjaiswal97/aspire-banking">Github Link</a>
+                    
+                </div>
+    
+                
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-04" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/sk2.webp" alt="hogwarts sketched by yash jaiswal">
+    
+                <div class="modal-popup__desc">
+                    <h5>Home, Hogwarts</h5>
+                    <p></p>
+                    
+                </div>
+    
+                
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-05" hidden>
+            <div class="modal-popup">
+
+                <img src="images/portfolio/photo3.webp" alt="a staion photographed by yash jaiswal">
+    
+                <div class="modal-popup__desc">
+                    <h5>Light at the end of the tunnel</h5>
+                    <p></p>
+                    
+                </div>
+    
+                
+            </div>
+        </div> <!-- end modal -->
+
+        <div id="modal-06" hidden>
+            <div class="modal-popup">
+                <img src="images/portfolio/sk3.webp" alt="spiderman sketched by yash jaiswal">
+    
+                <div class="modal-popup__desc">
+                    <h5>Spidey</h5>
+                    <p></p>
+                    
+                </div>
+    
+                
+            </div>
+        </div> <!-- end modal -->
+
+    </div> <!-- end works-portfolio -->
+
+    <!-- testimonials start -->
+     <!-- testimonials end -->
+ 
+
+</section>
+ <!-- ========================= Projects End  ================================ -->
             <!-- =========================   Quests  ================================ -->
 
             <section id="quest" class="s-works target-section">
